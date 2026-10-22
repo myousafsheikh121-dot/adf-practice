@@ -26,7 +26,7 @@ jobs:
       - name: Deploy ARM template
         uses: azure/arm-deploy@v2
         with:
-          resourceGroupName: dev-cicd-yousaf
+          resourceGroupName: covid19rg
           template: ./ARMTemplateForFactory.json
           parameters: ./ARMTemplateParametersForFactory.json
           deploymentMode: Incremental
