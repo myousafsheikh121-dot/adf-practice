@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "factoryName": {
-            "value": "dev-cicd-yousaf-factory"
+            "value": "covid19datafac"
         }
     }
 }
